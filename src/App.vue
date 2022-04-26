@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HeaderComponent />
+    <HeaderComponent :menuItem="menuItem" />
     <MainComponent />
     <FooterComponent />
   </div>
@@ -18,9 +18,25 @@ export default {
     MainComponent,
     FooterComponent,
   },
+  data() {
+    return {
+      menuItem: [
+        { message: "Home" },
+        { message: "Services" },
+        { message: "About" },
+        { message: "Videos" },
+        { message: "Blog" },
+        { message: "Store" },
+      ],
+    };
+  },
 };
 </script>
 
 <style lang="scss">
 @import "@/style/general";
+
+[class*="col"] {
+  border: 1px dashed red;
+}
 </style>
