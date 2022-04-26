@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="row">
+  <div class="container-fluid">
+    <div class="row p-3">
       <div class="col-2 offset-1">
         <img src="@/assets/images/logo.png" alt="" class="w_200" />
       </div>
