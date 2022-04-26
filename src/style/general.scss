@@ -10,3 +10,53 @@ body {
     background-color: #060606;
     color: #ffffff;
 }
+
+// utilities
+.btn_blue {
+    background-color: #4154fe;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn_black {
+    background-color: black;
+    color: white;
+    border-color: gray;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.w_200 {
+    width: 200px;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 40px;
+    left: 410px;
+}
+
+.small {
+    font-size: small;
+}
+
+.overlay {
+    background-color: #060606;
+    opacity: 0.1;
+}

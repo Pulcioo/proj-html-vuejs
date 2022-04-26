@@ -53,15 +53,4 @@ ul {
 button {
   font-size: 16px;
 }
-
-// utilities
-.btn_blue {
-  background-color: #4154fe;
-  color: white;
-  border-radius: 50px;
-}
-
-.w_200 {
-  width: 200px;
-}
 </style>

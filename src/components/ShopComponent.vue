@@ -8,14 +8,23 @@
           Curabitur non nulla sit ametnisl tempus convallis quis ac lectus dolor
           sit amet.
         </p>
-        <button class="btn btn_blue px-4">Schedule a workout</button>
-        <button class="btn btn_black px-4">Schedule a workout</button>
+        <button class="btn btn_blue px-4">
+          <i class="fa-brands fa-youtube"></i> Visit my YouTube channel
+        </button>
+        <button class="btn btn_black px-4">
+          Buy Avada today <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
     </div>
     <div class="col-3 d-flex justify-content-center align-items-center">
       <i class="fa-solid fa-circle-play fa-2xl"></i>
     </div>
-    <div class="col-1"></div>
+    <div class="col-1 d-flex justify-content-end">
+      <div>
+        <div class="box mb-1 mt-5"></div>
+        <div class="box"></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,29 +38,16 @@ export default {
 .row {
   background-image: url(@/assets/images/slider82x-scaled.jpg);
   background-size: cover;
-  height: 450px;
+  height: 500px;
 
   h1 {
     font-size: 50px;
   }
-}
 
-// utilities
-.red {
-  color: red;
-}
-
-.btn_blue {
-  background-color: #4154fe;
-  color: white;
-  border-radius: 50px;
-}
-
-.btn_black {
-  background-color: black;
-  color: white;
-  border-color: gray;
-  border-radius: 50px;
-  margin-left: 10px;
+  .box {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+  }
 }
 </style>
