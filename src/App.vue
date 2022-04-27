@@ -6,6 +6,7 @@
       :playlist="playlist"
       :info="info"
       :articles="articles"
+      :clubs="clubs"
     />
     <FooterComponent />
   </div>
@@ -108,6 +109,32 @@ export default {
           url: "video9-2x.jpg",
           title: "New juices available now",
           message: "By Admin | November 26th, 2019 | Gym",
+        },
+      ],
+      clubs: [
+        {
+          url: "sponsor-1-2x-200x103.png",
+          message:
+            "Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus aget sed duis veicula.",
+          subtitle: "Visit Yoga Studio >",
+        },
+        {
+          url: "sponsor-2-2x-200x103.png",
+          message:
+            "Feugiat ediam ui mauis pharetra mauris sed pharetra. Convallis sapien ornare cras faucibus nulla porta dui a.",
+          subtitle: "Join Fitness Center >",
+        },
+        {
+          url: "sponsor-3-2x-200x103.png",
+          message:
+            "Nisi at quas adisciping montes, nec, adipiscing commodo aquilam tincidut. Ligula in habitant et saggittis imperdient.",
+          subtitle: "Learn about FC >",
+        },
+        {
+          url: "sponsor-4-2x-200x103.png",
+          message:
+            "Proin in viverra maecenas es mattis ut hib enim. Gravida ultricies mi porta lacus. Et psuere velitsec net elefeind.",
+          subtitle: "Visit Power Gym >",
         },
       ],
     };
