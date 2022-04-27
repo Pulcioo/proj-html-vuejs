@@ -6,6 +6,7 @@
     <EmailComponent />
     <InfoComponent :info="info" />
     <ArticlesComponent :articles="articles" />
+    <JumbotronComponent />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import YouTubeComponent from "@/components/YouTubeComponent.vue";
 import EmailComponent from "@/components/EmailComponent.vue";
 import InfoComponent from "@/components/InfoComponent.vue";
 import ArticlesComponent from "@/components/ArticlesComponent.vue";
+import JumbotronComponent from "@/components/JumbotronComponent.vue";
 
 export default {
   name: "MainComponent",
@@ -26,6 +28,7 @@ export default {
     EmailComponent,
     InfoComponent,
     ArticlesComponent,
+    JumbotronComponent,
   },
   props: {
     cards: Array,
