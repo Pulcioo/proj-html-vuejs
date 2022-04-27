@@ -1,8 +1,8 @@
 <template>
-  <div class="row flex-column">
-    <div class="col relative">
-      <div class="absolute">
-        <div class="img_container d-flex justify-content-center">
+  <div class="gradient relative">
+    <div class="row flex-column">
+      <div class="col">
+        <div class="img_container d-flex justify-content-center absolute">
           <div id="image-1" class="d-flex align-items-end m-3">
             <div class="d-flex flex-column m-3">
               <span>Crossfit workout</span>
@@ -24,13 +24,24 @@
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="text_container">
-        <p>
-          "How do you responde to the challenge in the second half will
-          determine what you become after the game, whether you are winner or a
-          loser."
-        </p>
+    <div class="row d-flex justify-content-center">
+      <div class="col-5">
+        <div class="text_container text-center">
+          <p>
+            "How do you responde to the challenge in the second half will
+            determine what you become after the game, whether you are winner or
+            a loser."
+          </p>
+          <div>
+            <img
+              src="@/assets/images/avatar-1-2x.jpg"
+              alt="profile"
+              id="img_profile"
+            />
+            <span class="p-2">Brad Johnson</span>
+            <span class="gray">Las Vegas</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -43,9 +54,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.row {
-  height: 500px;
-  background: linear-gradient(to left top, blue, red);
+.gradient {
+  background: linear-gradient(to left top, red, blue);
 
   #image-1 {
     background-image: url(@/assets/images/service6-2x.jpg);
@@ -66,6 +76,25 @@ export default {
     background-size: cover;
     height: 250px;
     width: 220px;
+  }
+
+  .text_container {
+    margin-top: 270px;
+    margin-bottom: 100px;
+
+    p {
+      font-size: 20px;
+    }
+
+    #img_profile {
+      width: 30px;
+      border-radius: 50%;
+      display: inline;
+    }
+
+    span {
+      font-size: small;
+    }
   }
 }
 </style>

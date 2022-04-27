@@ -38,6 +38,10 @@ body {
     color: black;
 }
 
+.gray {
+    color: rgb(165, 163, 163);
+}
+
 .yellow {
     color: yellow;
 }
@@ -48,15 +52,10 @@ body {
 
 .absolute {
     position: absolute;
-    bottom: 40px;
-    left: 410px;
+    bottom: 280px;
+    left: 340px;
 }
 
 .small {
     font-size: small;
-}
-
-.overlay {
-    background-color: #060606;
-    opacity: 0.1;
 }
