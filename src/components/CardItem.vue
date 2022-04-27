@@ -5,15 +5,15 @@
       :key="index"
       class="d-flex align-items-end m-4"
     >
-      <img :src="'images/' + cards[index].url" alt="cover" id="cover" />
+      <img :src="'images/' + item.url" alt="cover" id="cover" />
       <div class="d-flex flex-column m-3 info">
         <span
           ><i class="fa-solid fa-angle-up"></i
           ><i class="fa-solid fa-angle-up"></i
           ><i class="fa-solid fa-angle-up"></i
         ></span>
-        <span>{{ cards[index].title }}</span>
-        <span class="yellow small">{{ cards[index].message }}</span>
+        <span>{{ item.title }}</span>
+        <span class="yellow small">{{ item.message }}</span>
       </div>
     </div>
   </div>

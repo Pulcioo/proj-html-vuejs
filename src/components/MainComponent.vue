@@ -5,6 +5,7 @@
     <YouTubeComponent :playlist="playlist" />
     <EmailComponent />
     <InfoComponent :info="info" />
+    <ArticlesComponent :articles="articles" />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import CitComponent from "@/components/CitComponent.vue";
 import YouTubeComponent from "@/components/YouTubeComponent.vue";
 import EmailComponent from "@/components/EmailComponent.vue";
 import InfoComponent from "@/components/InfoComponent.vue";
+import ArticlesComponent from "@/components/ArticlesComponent.vue";
 
 export default {
   name: "MainComponent",
@@ -23,11 +25,13 @@ export default {
     YouTubeComponent,
     EmailComponent,
     InfoComponent,
+    ArticlesComponent,
   },
   props: {
     cards: Array,
     playlist: Array,
     info: Array,
+    articles: Array,
   },
 };
 </script>

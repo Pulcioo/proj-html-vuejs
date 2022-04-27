@@ -2,11 +2,9 @@
   <div class="video_container d-flex justify-content-center">
     <div v-for="(item, index) in playlist" :key="index" class="p-3">
       <div class="d-flex flex-column m-3">
-        <img :src="'images/' + playlist[index].url" alt="video" id="video" />
-        <span class="text-center mt-3">{{ playlist[index].title }}</span>
-        <span class="text-center small blue">{{
-          playlist[index].message
-        }}</span>
+        <img :src="'images/' + item.url" alt="video" id="video" />
+        <span class="text-center mt-3">{{ item.title }}</span>
+        <span class="text-center small blue">{{ item.message }}</span>
       </div>
     </div>
   </div>

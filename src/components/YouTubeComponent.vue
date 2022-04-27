@@ -26,7 +26,7 @@
     <div class="row d-flex flex-column black">
       <div class="col-10 offset-1 d-flex justify-content-between mt-100">
         <span>Featured playlist</span>
-        <span>View all videos ></span>
+        <span class="small">View all videos ></span>
       </div>
       <div class="col">
         <VideoItem :playlist="playlist" />

@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <HeaderComponent :menuItem="menuItem" />
-    <MainComponent :cards="cards" :playlist="playlist" :info="info" />
+    <MainComponent
+      :cards="cards"
+      :playlist="playlist"
+      :info="info"
+      :articles="articles"
+    />
     <FooterComponent />
   </div>
 </template>
@@ -86,6 +91,23 @@ export default {
           message:
             "Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus aget sed duis veicula.",
           message2: "Schedule a workout >",
+        },
+      ],
+      articles: [
+        {
+          url: "video2-2x.jpg",
+          title: "The best proteine shake",
+          message: "By Admin | November 26th, 2019 | Gym",
+        },
+        {
+          url: "video7-2x.jpg",
+          title: "Ultimate cardio workout",
+          message: "By Admin | November 26th, 2019 | Gym",
+        },
+        {
+          url: "video9-2x.jpg",
+          title: "New juices available now",
+          message: "By Admin | November 26th, 2019 | Gym",
         },
       ],
     };
