@@ -6,7 +6,7 @@
           id="workout"
           class="d-flex justify-content-center align-items-center"
         >
-          <i class="fa-solid fa-circle-play fa-2xl"></i>
+          <i class="fa-solid fa-circle-play fa-4x"></i>
         </div>
       </div>
       <div class="col black">

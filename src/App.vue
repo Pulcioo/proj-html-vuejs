@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent :menuItem="menuItem" />
-    <MainComponent :cards="cards" :playlist="playlist" />
+    <MainComponent :cards="cards" :playlist="playlist" :info="info" />
     <FooterComponent />
   </div>
 </template>
@@ -60,6 +60,32 @@ export default {
           url: "video9-2x.jpg",
           title: "Slim e trim your waist",
           message: "Shed those extra pounds",
+        },
+      ],
+      info: [
+        {
+          icon: "fa-solid fa-stopwatch fa-3x",
+          title: "Thighs e glute workout",
+          subtitle: "Find a partner",
+          message:
+            "Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus aget sed duis veicula.",
+          message2: "Find a patner >",
+        },
+        {
+          icon: "fa-solid fa-heart-pulse fa-3x",
+          title: "Crossfit workout",
+          subtitle: "Push your limit",
+          message:
+            "Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus aget sed duis veicula.",
+          message2: "Learn about Crossfit >",
+        },
+        {
+          icon: "fa-solid fa-child-reaching fa-3x",
+          title: "Weight loss plan",
+          subtitle: "Shed those pounds",
+          message:
+            "Vestibulum, curabitur eu sem nibh ultrices sit nulla adipiscing. Nisl sit fames amet senectus aget sed duis veicula.",
+          message2: "Schedule a workout >",
         },
       ],
     };

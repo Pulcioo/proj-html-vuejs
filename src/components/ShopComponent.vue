@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="col-3 d-flex justify-content-center align-items-center">
-        <i class="fa-solid fa-circle-play fa-2xl"></i>
+        <i class="fa-solid fa-circle-play fa-4x"></i>
       </div>
       <div class="col-1 d-flex justify-content-end">
         <div class="p-2">
