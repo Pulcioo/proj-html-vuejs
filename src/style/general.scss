@@ -11,9 +11,19 @@ body {
     color: #ffffff;
 }
 
+.row>* {
+    padding: 0;
+}
+
 // utilities
 .btn_blue {
     background-color: #4154fe;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn_red {
+    background-color: red;
     color: white;
     border-radius: 50px;
 }
@@ -30,8 +40,20 @@ body {
     width: 200px;
 }
 
+.p_100 {
+    padding: 100px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
 .red {
     color: red;
+}
+
+.blue {
+    color: #4154fe;
 }
 
 .black {
@@ -46,6 +68,10 @@ body {
     color: yellow;
 }
 
+.white {
+    background-color: white;
+}
+
 .relative {
     position: relative;
 }
@@ -53,7 +79,7 @@ body {
 .absolute {
     position: absolute;
     bottom: 280px;
-    left: 340px;
+    left: 325px;
 }
 
 .small {

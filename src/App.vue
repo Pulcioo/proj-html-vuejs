@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent :menuItem="menuItem" />
-    <MainComponent :cards="cards" />
+    <MainComponent :cards="cards" :playlist="playlist" />
     <FooterComponent />
   </div>
 </template>
@@ -43,6 +43,23 @@ export default {
           url: "box3-2x.jpg",
           title: "Team training",
           message: "Find a partner",
+        },
+      ],
+      playlist: [
+        {
+          url: "video2-2x.jpg",
+          title: "Thighs e glute workout",
+          message: "Increase your mobility",
+        },
+        {
+          url: "video7-2x.jpg",
+          title: "Lift, firm e perk up",
+          message: "Feel young again",
+        },
+        {
+          url: "video9-2x.jpg",
+          title: "Slim e trim your waist",
+          message: "Shed those extra pounds",
         },
       ],
     };

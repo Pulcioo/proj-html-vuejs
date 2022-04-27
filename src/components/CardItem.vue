@@ -1,5 +1,5 @@
 <template>
-  <div class="img_container d-flex justify-content-center absolute">
+  <div class="img_container d-flex absolute">
     <div
       v-for="(item, index) in cards"
       :key="index"
@@ -26,7 +26,7 @@ export default {
 <style scoped lang="scss">
 #cover {
   height: 250px;
-  width: 220px;
+  width: 230px;
 }
 
 .info {

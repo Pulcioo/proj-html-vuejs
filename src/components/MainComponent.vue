@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <ShopComponent />
     <CitComponent :cards="cards" />
-    <YouTubeComponent />
+    <YouTubeComponent :playlist="playlist" />
   </div>
 </template>
 
@@ -20,6 +20,7 @@ export default {
   },
   props: {
     cards: Array,
+    playlist: Array,
   },
 };
 </script>
