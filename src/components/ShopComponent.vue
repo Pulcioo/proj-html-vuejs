@@ -5,6 +5,11 @@
         <div class="container_text">
           <span class="red">Certified fitness professional</span>
           <h1>Take control of your health</h1>
+          <span
+            ><i class="fa-solid fa-angle-up yellow fa-2x"></i
+            ><i class="fa-solid fa-angle-up yellow fa-2x"></i
+            ><i class="fa-solid fa-angle-up yellow fa-2x"></i
+          ></span>
           <p>
             Curabitur non nulla sit ametnisl tempus convallis quis ac lectus
             dolor sit amet.

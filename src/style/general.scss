@@ -48,6 +48,10 @@ body {
     margin-top: 100px;
 }
 
+.ml-30 {
+    margin-left: 30px;
+}
+
 .red {
     color: red;
 }
@@ -78,10 +82,13 @@ body {
 
 .absolute {
     position: absolute;
-    bottom: 280px;
-    left: 325px;
+    bottom: 405px;
 }
 
 .small {
     font-size: small;
+}
+
+.w_35 {
+    width: 35%;
 }

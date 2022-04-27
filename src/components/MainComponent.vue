@@ -3,6 +3,7 @@
     <ShopComponent />
     <CitComponent :cards="cards" />
     <YouTubeComponent :playlist="playlist" />
+    <EmailComponent />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import ShopComponent from "@/components/ShopComponent.vue";
 import CitComponent from "@/components/CitComponent.vue";
 import YouTubeComponent from "@/components/YouTubeComponent.vue";
+import EmailComponent from "@/components/EmailComponent.vue";
 
 export default {
   name: "MainComponent",
@@ -17,6 +19,7 @@ export default {
     ShopComponent,
     CitComponent,
     YouTubeComponent,
+    EmailComponent,
   },
   props: {
     cards: Array,

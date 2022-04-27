@@ -1,6 +1,6 @@
 <template>
   <div class="gradient relative">
-    <div class="row flex-column">
+    <div class="row">
       <div class="col">
         <CardItem :cards="cards" />
       </div>
@@ -13,6 +13,11 @@
             determine what you become after the game, whether you are winner or
             a loser."
           </p>
+          <span
+            ><i class="fa-solid fa-angle-up yellow fa-2x"></i
+            ><i class="fa-solid fa-angle-up yellow fa-2x"></i
+            ><i class="fa-solid fa-angle-up yellow fa-2x"></i
+          ></span>
           <div>
             <img src="images/avatar-1-2x.jpg" alt="profile" id="img_profile" />
             <span class="p-2">Brad Johnson</span>
@@ -43,11 +48,11 @@ export default {
   background: linear-gradient(to left top, red, blue);
 
   .text_container {
-    margin-top: 270px;
-    margin-bottom: 100px;
+    margin-top: 330px;
+    margin-bottom: 140px;
 
     p {
-      font-size: 20px;
+      font-size: 25px;
     }
 
     #img_profile {

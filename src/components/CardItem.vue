@@ -1,12 +1,17 @@
 <template>
-  <div class="img_container d-flex absolute">
+  <div class="img_container d-flex justify-content-center w-100 absolute">
     <div
       v-for="(item, index) in cards"
       :key="index"
-      class="d-flex align-items-end m-3"
+      class="d-flex align-items-end m-4"
     >
       <img :src="'images/' + cards[index].url" alt="cover" id="cover" />
       <div class="d-flex flex-column m-3 info">
+        <span
+          ><i class="fa-solid fa-angle-up"></i
+          ><i class="fa-solid fa-angle-up"></i
+          ><i class="fa-solid fa-angle-up"></i
+        ></span>
         <span>{{ cards[index].title }}</span>
         <span class="yellow small">{{ cards[index].message }}</span>
       </div>
@@ -25,8 +30,8 @@ export default {
 
 <style scoped lang="scss">
 #cover {
-  height: 250px;
-  width: 230px;
+  height: 300px;
+  width: 280px;
 }
 
 .info {
