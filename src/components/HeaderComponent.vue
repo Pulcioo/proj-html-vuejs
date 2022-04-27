@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row p-3">
       <div class="col-2 offset-1">
-        <img src="@/assets/images/logo.png" alt="" class="w_200" />
+        <img src="images/logo.png" alt="" class="w_200" />
       </div>
       <div class="col-5 d-flex align-items-center">
         <ul class="d-flex w-100 justify-content-around mb-0">

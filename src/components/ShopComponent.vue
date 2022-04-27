@@ -36,7 +36,7 @@ export default {
 
 <style scoped lang="scss">
 .row {
-  background-image: url(@/assets/images/slider82x-scaled.jpg);
+  background-image: url(@/assets/slider82x-scaled.jpg);
   background-size: cover;
   height: 500px;
 

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent :menuItem="menuItem" />
-    <MainComponent />
+    <MainComponent :cards="cards" />
     <FooterComponent />
   </div>
 </template>
@@ -27,6 +27,23 @@ export default {
         { message: "Videos" },
         { message: "Blog" },
         { message: "Store" },
+      ],
+      cards: [
+        {
+          url: "service6-2x.jpg",
+          title: "Crossfit workout",
+          message: "Push your limits",
+        },
+        {
+          url: "box1-2x.jpg",
+          title: "New gym apparel",
+          message: "Look good, feel good",
+        },
+        {
+          url: "box3-2x.jpg",
+          title: "Team training",
+          message: "Find a partner",
+        },
       ],
     };
   },
