@@ -96,17 +96,17 @@ export default {
       ],
       articles: [
         {
-          url: "video2-2x.jpg",
+          url: "blog4-2x.jpg",
           title: "The best proteine shake",
           message: "By Admin | November 26th, 2019 | Gym",
         },
         {
-          url: "video7-2x.jpg",
+          url: "blog3-2x.jpg",
           title: "Ultimate cardio workout",
           message: "By Admin | November 26th, 2019 | Gym",
         },
         {
-          url: "video9-2x.jpg",
+          url: "blog1-2x.jpg",
           title: "New juices available now",
           message: "By Admin | November 26th, 2019 | Gym",
         },

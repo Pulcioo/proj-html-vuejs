@@ -5,7 +5,10 @@
       :key="index"
       class="d-flex align-items-end m-4"
     >
-      <img :src="'images/' + item.url" alt="cover" id="cover" />
+      <div class="wrapper">
+        <div class="overlay"></div>
+        <img :src="'images/' + item.url" alt="cover" id="cover" />
+      </div>
       <div class="d-flex flex-column m-3 info">
         <span
           ><i class="fa-solid fa-angle-up"></i
@@ -29,9 +32,26 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.wrapper {
+  position: relative;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(
+      ellipse,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 1)
+    );
+  }
+}
+
 #cover {
   height: 300px;
-  width: 280px;
+  width: 100%;
 }
 
 .info {

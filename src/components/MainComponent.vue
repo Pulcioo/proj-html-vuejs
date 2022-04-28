@@ -8,6 +8,7 @@
     <ArticlesComponent :articles="articles" />
     <JumbotronComponent />
     <FitnessComponent :clubs="clubs" />
+    <SecondJumbotron />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import InfoComponent from "@/components/InfoComponent.vue";
 import ArticlesComponent from "@/components/ArticlesComponent.vue";
 import JumbotronComponent from "@/components/JumbotronComponent.vue";
 import FitnessComponent from "@/components/FitnessComponent.vue";
+import SecondJumbotron from "@/components/SecondJumbotron.vue";
 
 export default {
   name: "MainComponent",
@@ -32,6 +34,7 @@ export default {
     ArticlesComponent,
     JumbotronComponent,
     FitnessComponent,
+    SecondJumbotron,
   },
   props: {
     cards: Array,

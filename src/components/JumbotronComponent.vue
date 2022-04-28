@@ -27,9 +27,6 @@
 <script>
 export default {
   name: "JumbotronComponent",
-  props: {
-    jumboUrl: Array,
-  },
 };
 </script>
 

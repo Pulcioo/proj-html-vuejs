@@ -24,7 +24,7 @@ export default {
 <style scoped lang="scss">
 #video {
   height: 200px;
-  width: 300px;
+  width: 100%;
   border-radius: 5px;
   border-bottom-right-radius: 25px;
 }
