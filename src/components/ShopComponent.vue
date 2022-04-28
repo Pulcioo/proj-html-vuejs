@@ -14,10 +14,10 @@
             Curabitur non nulla sit ametnisl tempus convallis quis ac lectus
             dolor sit amet.
           </p>
-          <button class="btn btn_blue px-4">
+          <button class="btn btn_blue px-4" id="channel">
             <i class="fa-brands fa-youtube"></i> Visit my YouTube channel
           </button>
-          <button class="btn btn_black px-4">
+          <button class="btn btn_black px-4" id="buy">
             Buy Avada today <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
@@ -52,6 +52,16 @@ export default {
 
     h1 {
       font-size: 50px;
+    }
+
+    #channel:hover {
+      background-color: red;
+      color: white;
+    }
+
+    #buy:hover {
+      background-color: white;
+      color: black;
     }
   }
 

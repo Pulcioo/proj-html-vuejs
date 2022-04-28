@@ -41,11 +41,11 @@ export default {
     left: 0;
     width: 100%;
     height: 300px;
-    background-image: radial-gradient(
-      ellipse,
-      rgba(0, 0, 0, 0) 40%,
-      rgba(0, 0, 0, 1)
-    );
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+
+    &:hover {
+      background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    }
   }
 }
 

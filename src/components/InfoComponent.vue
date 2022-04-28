@@ -33,6 +33,10 @@ export default {
 
   .border {
     border: 3px solid #4154fe !important;
+
+    &:hover i {
+      font-size: 80px;
+    }
   }
 }
 </style>

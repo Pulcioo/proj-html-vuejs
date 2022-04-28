@@ -52,5 +52,10 @@ ul {
 
 button {
   font-size: 16px;
+
+  &:hover {
+    background-color: red;
+    color: white;
+  }
 }
 </style>

@@ -152,7 +152,7 @@ export default {
 <style lang="scss">
 @import "@/style/general";
 
-[class*="col"] {
-  border: 1px dashed red;
-}
+// [class*="col"] {
+// border: 1px dashed red;
+// }
 </style>
