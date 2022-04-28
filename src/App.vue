@@ -8,7 +8,7 @@
       :articles="articles"
       :clubs="clubs"
     />
-    <FooterComponent />
+    <FooterComponent :footerItem="footerItem" />
   </div>
 </template>
 
@@ -136,6 +136,13 @@ export default {
             "Proin in viverra maecenas es mattis ut hib enim. Gravida ultricies mi porta lacus. Et psuere velitsec net elefeind.",
           subtitle: "Visit Power Gym >",
         },
+      ],
+      footerItem: [
+        { message: "> The best protein shake" },
+        { message: "> Ultimate cardio workout" },
+        { message: "> New juices available now" },
+        { message: "> Tips to find training partners" },
+        { message: "> 20 best healty recipes" },
       ],
     };
   },
