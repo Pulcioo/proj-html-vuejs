@@ -13,6 +13,20 @@
         <div class="p_100">
           <span class="blue">Tune up your workouts</span>
           <h2 class="mt-4 mb-4">The best health & fitness advice online</h2>
+          <div class="d-flex pb_20">
+            <img src="images/unnamed.jpg" alt="logo" id="logo" />
+            <div class="d-flex flex-column">
+              <span class="x_small gray">Theme Fusion</span>
+              <div id="yt-block" class="x_small d-flex align-items-center">
+                <div id="mini_block">
+                  <i class="fa-brands fa-youtube"></i> YouTube
+                </div>
+                <div id="followers">
+                  <span class="gray">999+</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <p class="gray mb-4">
             Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper
             mauris, venenatis, leo integer sit pellentesque.
@@ -54,9 +68,28 @@ export default {
   background-image: url(@/assets/service15-2x.jpg);
   background-size: cover;
   height: 500px;
-  width: 700px;
+  width: 50%;
   border-bottom-right-radius: 25px;
   position: absolute;
-  bottom: 5px;
+  bottom: 50px;
+}
+
+#logo {
+  width: 40px;
+  padding-right: 5px;
+}
+
+#yt-block {
+  border: 1px gray solid;
+
+  #mini_block {
+    background-color: red;
+    color: white;
+    padding: 0 4px;
+  }
+
+  #followers {
+    padding: 0 4px;
+  }
 }
 </style>

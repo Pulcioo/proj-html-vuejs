@@ -86,11 +86,18 @@ body {
 
 .absolute {
     position: absolute;
-    bottom: 405px;
 }
 
 .small {
     font-size: small;
+}
+
+.x_small {
+    font-size: x-small;
+}
+
+.pb_20 {
+    padding-bottom: 20px;
 }
 
 .w_35 {

@@ -27,8 +27,32 @@
       </div>
       <div class="col-1 d-flex justify-content-end">
         <div class="p-2">
-          <div class="box mb-1 mt-5"></div>
-          <div class="box"></div>
+          <div class="box d-flex justify-content-center mb-1 mt-5">
+            <div
+              class="
+                d-flex
+                flex-column
+                justify-content-center
+                align-items-center
+              "
+            >
+              <span><i class="fa-solid fa-laptop black"></i></span>
+              <span id="on-sale">Demos</span>
+            </div>
+          </div>
+          <div class="box d-flex justify-content-center">
+            <div
+              class="
+                d-flex
+                flex-column
+                justify-content-center
+                align-items-center
+              "
+            >
+              <span id="price">$39</span>
+              <span id="on-sale">On Sale</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -69,6 +93,16 @@ export default {
     height: 50px;
     width: 50px;
     background-color: white;
+    border-radius: 8px;
+
+    #price {
+      color: rgb(38, 169, 38);
+    }
+
+    #on-sale {
+      font-size: x-small;
+      color: #78787a;
+    }
   }
 }
 </style>

@@ -1,15 +1,15 @@
 <template>
-  <div class="img_container d-flex justify-content-center w-100 absolute">
+  <div class="img_container d-flex justify-content-center w-100">
     <div
       v-for="(item, index) in cards"
       :key="index"
       class="d-flex align-items-end m-4"
     >
-      <div class="wrapper">
+      <div class="wrapper relative">
         <div class="overlay"></div>
         <img :src="'images/' + item.url" alt="cover" id="cover" />
       </div>
-      <div class="d-flex flex-column m-3 info">
+      <div class="d-flex flex-column m-3 absolute">
         <span
           ><i class="fa-solid fa-angle-up"></i
           ><i class="fa-solid fa-angle-up"></i
@@ -32,8 +32,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.wrapper {
-  position: relative;
+.img_container {
+  position: absolute;
+  bottom: 405px;
 
   .overlay {
     position: absolute;
@@ -47,14 +48,10 @@ export default {
       background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
     }
   }
-}
 
-#cover {
-  height: 300px;
-  width: 100%;
-}
-
-.info {
-  position: absolute;
+  #cover {
+    height: 300px;
+    width: 100%;
+  }
 }
 </style>
